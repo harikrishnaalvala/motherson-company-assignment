@@ -6,7 +6,7 @@ import './index.css'
 const initialSlidesList = [
   {
     id: 1,
-    name: 'VR Website',
+    name: 'E-commerce Website',
     image:
       'https://assets.ccbp.in/frontend/react-js/projects-showcase/vr-website-img.png',
     description:
