@@ -1,0 +1,70 @@
+.homePageParDetails {
+  height: 27px;
+  color: #fdc435;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.HomePageHead {
+  font-family: 'Playfair Display';
+  width: 486px;
+  font-size: 44px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.HomePageDescription {
+  font-weight: 400;
+  color: #828282;
+  font-size: 24px;
+  width: 486px;
+}
+
+@media screen and (max-width: 768px) {
+  .homePageContainer {
+    width: 300px;
+    margin-left: 100px;
+  }
+  .HomePageDescription {
+    width: 350px;
+  }
+}
+
+.projectButton {
+  background-color: #fdc435;
+  color: #25282b;
+  border-width: 0px;
+  border-radius: 10px;
+
+  height: 32px;
+  width: 120px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.linkedInButton {
+  background-color: transparent;
+  color: #25282b;
+  height: 32px;
+  width: 120px;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.homePageContainer {
+  background-image: url('https://res.cloudinary.com/dojn2omox/image/upload/v1704401475/attachment_vorjfu.png');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 75%;
+  margin-left: 230px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .homePageContainer {
+    margin-left: 20px;
+  }
+}

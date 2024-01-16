@@ -1,0 +1,65 @@
+.imageDetails {
+  width: 300px;
+  background-size: cover;
+}
+
+.displayFlex {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.description-width-details {
+  width: 300px;
+}
+
+.bgc-details {
+  background-color: #ffffff;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .bgc-details {
+    margin-left: 0px;
+  }
+}
+
+.anchorButton {
+  border: 1px solid #25282b;
+  border-radius: 10px;
+  height: 32px;
+  width: 120px;
+  background-color: transparent;
+}
+
+.addingBgc {
+  background-color: #fdc435;
+  padding: 6px;
+}
+
+.margin-rightD {
+  margin-right: 50px;
+}
+
+.margin-leftD {
+  margin-left: 50px;
+}
+
+.itemsOfLarge {
+  display: block;
+}
+
+.smallScale {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .itemsOfLarge {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .smallScale {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.logo-image-details {
+  width: 20px;
+  background-size: cover;
+  margin-right: 25px;
+}
+
+.addressPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  text-align: center;
+}
